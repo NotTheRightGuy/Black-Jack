@@ -1,0 +1,43 @@
+.header{
+    display: block;
+    font-family: 'Roboto';
+    font-size: 47px;
+    text-align: center;
+    width: 100%;
+}
+
+.btn-wrapper{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#start-button{
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 50px;
+
+    font-size: 30px;
+    font-family: 'Open Sans';
+
+    cursor: pointer;
+
+    outline: 0;
+
+    border:0;
+    border-radius: 4px;
+
+    background-color: rgb(173, 222, 235);
+
+    box-shadow: 1px 1px 4px rgb(145, 144, 144);
+
+}
+
+#start-button:hover{
+    background-color: rgb(151, 194, 207);
+    transition: 0.2s;
+    padding-left: 18px;
+    padding-right: 18px;
+    height: 47px;
+}
