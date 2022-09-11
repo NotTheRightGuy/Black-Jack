@@ -1,4 +1,4 @@
-.header{
+#header{
     display: block;
     font-family: 'Roboto';
     font-size: 47px;
@@ -41,3 +41,8 @@
     padding-right: 18px;
     height: 47px;
 }
+
+#rick-roll{
+    display: none;
+}
+
